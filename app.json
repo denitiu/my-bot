@@ -2,7 +2,7 @@
   "name": Test first bot",
   "description": "The server side bottie.",
   "image": "heroku/python",
-  "repository": "https://github.wdf.sap.corp/D066281/my-bot",
+  "repository": "https://github.com/denitiu/my-bot",
   "keywords": ["python", "flask" ],
   "addons": [ "heroku-postgresql" ],
   "environments": {

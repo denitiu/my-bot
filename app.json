@@ -1,5 +1,5 @@
 {
-  "name": Test first bot",
+  "name": "Test first bot",
   "description": "The server side bottie.",
   "image": "heroku/python",
   "repository": "https://github.com/denitiu/my-bot",

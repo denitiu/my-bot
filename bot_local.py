@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify
 import json
-import os
 import requests
 
 app = Flask(__name__)
-port = int(os.environ["PATH"])
+port = 5000
 
 @app.route('/', methods=['POST'])
 def index():
@@ -29,4 +28,4 @@ def errors():
   print(json.loads(request.get_data()))
   return jsonify(status=200)
 
-app.run(port=port, host="0.0.0.0")
+app.run(port=port)
